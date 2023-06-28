@@ -1,0 +1,35 @@
+table {
+    text-align: center;
+    margin: 0 auto;
+    font-size: large;
+    border: 1px solid rgb(18, 153, 194);
+}
+
+h1 {
+    text-align: center;
+    color:  rgb(18, 153, 194);
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT',
+    ' Calibri', 'Trebuchet MS', 'sans-serif';
+}
+tr:nth-child(2n+1)
+{
+    background-color: rgb(18, 153, 194);
+}
+td {
+    text-align: center;
+    background-color: #ffffffec;
+    border: 0.5px solid rgb(221, 228, 231); 
+}
+
+/* th,
+td {
+    font-weight: bold;
+    border: 2px solid  rgb(18, 153, 194);
+    padding: 10px;
+    text-align: center;
+} */
+
+td {
+    font-weight: lighter;
+}

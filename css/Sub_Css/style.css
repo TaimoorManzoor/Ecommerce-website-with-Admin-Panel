@@ -1,0 +1,148 @@
+.r1
+{
+	margin-top: 5%;
+}
+.r2{
+	margin-top: 7%;
+}
+.r3{
+	margin-top: 1%;
+}
+.r4{
+	margin-top: 5%;
+}
+.r5{
+	margin-top: 2%;
+	
+}
+.c1{
+	height: 100px;
+	background-color: red;
+}
+.c2{
+	height: 100px;
+	background-color: rebeccapurple;
+}
+.c3{
+	height: 100px;
+	background-color: black;
+}
+.c4{
+	height: 100px;
+	background-color: beige;
+}
+.s1{
+	width: 400px;
+	height: 100px;
+	background-color: black;
+}
+.s3{
+	height: 10px;
+	width: 700px;
+	background-color: brown;
+}
+.s4{
+	margin-left:4%;
+	height: 50px;
+	width: 100px;
+	background-color: aquamarine;
+}
+.s5{
+	margin-left:50%;
+	height: 100px;
+	width: 400px;
+	background-color: orangered;
+}
+.s6{
+	margin-left:50%;
+	height: 10px;
+	width: 400px;
+	background-color: orangered;
+}
+
+.s7{
+	margin-left:30%;
+	height: 70px;
+	width: 200px;
+	background-color: orangered;
+}
+.s8{
+	margin-left: 22%;
+	height: 5px;
+	width: 400px;
+	background-color: orangered;
+}
+.s9{
+	margin-left: 5%;
+	height: 200px;
+	width: 200px;
+	background-color: gold;
+}
+.s10{
+	margin-left: 10%;
+	height: 50px;
+	width: 100px;
+	background-color: rgb(104, 95, 41);
+}
+.s11{
+	margin-left: 12%;
+	height: 50px;
+	width: 100px;
+	background-color: rgb(104, 95, 41);
+}
+.s12{
+	margin-left: 10%;
+	height: 50px;
+	width: 100px;
+	background-color: rgb(33, 66, 25);
+}
+.s13{
+	margin-left: 11%;
+	height: 5px;
+	width: 100px;
+	background-color: rgb(33, 66, 25);
+}
+.s14{
+	margin-left: 15%;
+	height: 5px;
+	width: 100px;
+	background-color: rgb(33, 66, 25);
+}
+.s15{
+	margin-left:40%;
+	height: 50px;
+	width: 100px;
+	background-color: rgb(14, 6, 51);
+}
+.s16{
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 250px;
+	width: 250px;
+	background-color: gold;
+}
+.s17{
+
+	margin-left: 15%;
+	height: 50px;
+	width: 300px;
+	background-color: gold;
+}
+.s18{
+
+	margin-left: 2%;
+	height: 50px;
+	width: 300px;
+	background-color: rgb(12, 0, 40);
+}
+.s19{
+	height: 10px;
+	width: 400px;
+	background-color: brown;
+}
+.s20{
+	margin-left: 25%;
+	height: 10px;
+	width: 400px;
+	background-color: brown;
+}

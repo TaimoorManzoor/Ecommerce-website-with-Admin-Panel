@@ -1,0 +1,1619 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* <!-- HEADER Start --> */
+.top_row{
+    padding: 0%;
+    margin:0%;
+    font-family: Poppins;
+    background-color: #4e555a;
+}
+.shopping-text p{
+    padding-top: 15px;
+    justify-content: start;
+    color:white;
+    font-family: Poppins;
+}
+.cart{
+    justify-content: end;
+    color: white; 
+    font-family: Poppins;  
+}
+.cart ul{
+    padding-left: 20px;
+    padding-top: 15px;
+    justify-content: end;
+    display: flex;
+    list-style: none;
+    color: white;
+}
+.cart ul li{
+    padding: 1%;
+    border-left: 3px solid;
+    list-style: none;
+    color: white;
+}
+.cart ul li a{
+    text-decoration: none;
+    color:white;
+}
+.top-text{
+    font-family: Poppins;
+    background: radial-gradient(circle, rgba(57,93,30,1) 12%, rgba(57,93,30,1) 30%, rgba(62,97,30,1) 32%, rgba(104,130,25,1) 50%, rgba(113,138,24,1) 54%, rgba(136,157,22,1) 64%, rgba(152,170,20,1) 71%, rgba(164,179,19,1) 76%, rgba(178,190,17,0.9223039557619923) 82%, rgba(178,190,17,0.9223039557619923) 86%, rgba(178,190,17,0.9223039557619923) 97%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    justify-content: space-around;
+}
+.top-nav{
+    justify-content: space-between;
+    font-family: Poppins;
+}
+.top-nav ul {
+    /* margin-left: 100px; */
+    width: 100%;
+    font-family: Poppins;
+    list-style: none;
+    display: flex;
+    text-align: right;
+}
+.top-nav ul li{
+    margin: 0px 20px 0px 20px;
+
+}
+.top-nav ul a{
+    font-weight:500;
+    text-decoration: none;
+    color: black;
+}
+.top-nav li i{
+    background: radial-gradient(circle, rgba(57,93,30,1) 12%, rgba(57,93,30,1) 30%, rgba(62,97,30,1) 32%, rgba(104,130,25,1) 50%, rgba(113,138,24,1) 54%, rgba(136,157,22,1) 64%, rgba(152,170,20,1) 71%, rgba(164,179,19,1) 76%, rgba(178,190,17,0.9223039557619923) 82%, rgba(178,190,17,0.9223039557619923) 86%, rgba(178,190,17,0.9223039557619923) 97%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-weight: bold;
+}
+/* <!-- HEADER End --> */
+
+/* <!-- Banner Start --> */
+.banner{
+    font-family: Poppins;
+    background-size: cover;
+    background-image: url("../images/banner-bg.jpg");
+}
+.banner h3{
+    margin-top: 5%;
+}
+.banner h1{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.banner button{
+    background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+    margin-top: 5%;
+    margin-bottom: 16%;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    color:wheat;
+}
+.banner button i{
+    padding-left: 10px    
+}
+/* BANNER END */
+
+/* helpText start */
+.help-title{
+    font-family: Poppins;
+    text-align: center;
+}
+
+.help-title p{
+    font-weight: 600;
+    text-align: center;
+}
+/* helpText End */
+
+/* HELP CARD START */
+.help-card  {
+    font-family: Poppins;
+    margin-top: 5%;
+    position: relative;
+	display:flex;    
+}
+.help-card img {
+	width: 90%;
+	border-radius: 35px;
+}
+.help-card h3 {
+    color: #1f8554;
+    text-align: center;
+}
+/* HELP CARD END */
+.top-seller {
+    margin-top: 40px;
+    font-family: Poppins;
+}
+.top-seller hr {
+    border: 4px;
+}
+.top-seller h1{
+    /* margin-top: 5%; */
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    text-align: center;
+}
+.box-seller p{
+    text-align: justify;
+}
+.box-seller img{
+    height: 300px;
+    width: 200px;   
+}
+.box-seller {
+    margin: 20px 0px 20px 0px;
+    padding: inherit;
+    border: 1px solid;   
+}
+.rating-cart{    
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.box-seller button{ 
+    color: white;
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+/* review start */
+.review{
+    font-family: Poppins;
+    display: flex;
+    width: 100%;
+    color: wheat;
+    background-image: url("../images/reveiws-bg.png");
+    width: 120%;
+
+}
+.review h1{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.review p{
+    font-weight: 600;
+    padding-left: 5%;
+}
+.review h3{  
+    padding-left: 5%;
+}
+.review button{
+    margin-left: 5%;
+    color: white;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #747e86;
+}
+.rate{
+    padding-left: 6%;
+    display: flex;
+}
+.rate li{
+    color: green;
+}
+/* review end */
+.text-head{
+    justify-content: space-around;
+    position: relative;
+    display: inline-block;
+}
+.text-head h1{
+    text-align: center;
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.text-head p{
+    text-align: center;
+}
+/* find-your-product start */
+.find-your-product{
+    font-family: Poppins;
+    background-image: url("../images/find-your-product.jpg");
+
+}
+.find-your-product h1{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+.find-your-product p{
+    color: white;
+    text-align: center;
+}
+.find-your-product button{
+    margin: 10px 200px;
+    background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+}
+/* find-your-product End */
+
+
+/* LEARNING START */
+.learning{
+    font-family: Poppins;
+
+    background-color: #e5e5e5;
+}
+.head h1{
+    text-align: center;
+}
+.paragraph{
+    font-family: Poppins;
+
+    margin: 5%;
+}
+.learning-button button{
+    font-family: Poppins;
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    border-radius: 20px;
+    margin-left: 40%;
+    width: 300px;
+    margin-bottom:5% ;
+}
+.learning-button button p{
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    display: inline; 
+}
+.learning-button button i{
+    
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    
+}
+/* LEARNING END */
+
+
+/* SUBSCRIBE START */
+.subscribe{
+    font-family: Poppins;
+    background-image: url("../images/Home.TK.jpg");
+}
+.subscribe h1{
+    margin-top: 5%;
+    color: white;
+    text-align: center;
+}
+.subscribe-btn1 button{
+    height: 50px;
+    width: 300px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 40%;
+}
+.subscribe-btn2 button{
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 45%;
+    color: white;
+}
+/* SUBSCRIBE END */
+
+/* Footer START */
+
+.footer {
+    font-family: Poppins;
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    color: white;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+}
+.info h1{
+    margin-top: 50%;
+    text-align: center;
+}
+.info ul{
+    list-style: none;
+    padding: 10px;
+ }   
+.info ul li{
+list-style: none;
+padding: 10px;
+}
+.product-link{
+    text-decoration: none;
+    color: black;
+
+}
+.product-link:hover{
+    color: black;
+}
+/* footer end*/
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: right;
+}
+/* ===========================================Login Page  Start=================================== */
+.term{
+    padding-left:100px ;
+    display:inline;
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-weight: bolder;
+}
+.account{
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register{
+    box-shadow: 2px 2px 2px 2px #e5e5e5;
+    padding: 30px 10px 20px 20px;
+    margin: 100px 20px 100px 20px;
+}
+.login{
+    box-shadow: 2px 2px 2px 2px #e5e5e5;
+    padding: 50px 10px 50px 20px;
+    margin: 120px 20px 100px 20px;
+}
+.terms{
+        padding-left:300px;
+        display:inline;
+        background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: bolder;
+    }
+/* ===========================================Login Page  End=================================== */
+/* ===========================================Carts Page  Start=================================== */
+.cart table{
+    height: 200px;
+    width: 800px;
+    border-bottom: gainsboro;
+    
+}
+.cart table tr th{
+    height: 70px;
+    padding: 5px;
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);  
+    border-bottom: gainsboro;
+}
+.cart table tr {
+    padding: 10%;
+    margin: 10%;
+    border-bottom: solid gainsboro;
+}
+.cart table tr td{
+    color: #000;
+}
+.update{
+    height: 40px;
+    width: 100px;
+
+}
+.cross{
+    margin-left:40% ;
+    background-color: black;
+    color: white;
+}
+.record{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    margin-top: 5%;
+    padding: 10%;
+    height: 200px;
+    width: 300px;
+    background-color:#f9f9f9;
+    color: black;
+}
+.total{
+    
+    display: inline;
+    background: radial-gradient(circle, rgba(57,93,30,1) 12%, rgba(57,93,30,1) 30%, rgba(62,97,30,1) 32%, rgba(104,130,25,1) 50%, rgba(113,138,24,1) 54%, rgba(136,157,22,1) 64%, rgba(152,170,20,1) 71%, rgba(164,179,19,1) 76%, rgba(178,190,17,0.9223039557619923) 82%, rgba(178,190,17,0.9223039557619923) 86%, rgba(178,190,17,0.9223039557619923) 97%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.records{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    margin-top: 5%;
+    padding: 10%;
+    height: 200px;
+    width: 300px;
+    background-color:#f9f9f9;
+    color: black;
+}
+.proceed{
+    margin-top: 5%;
+    background: radial-gradient(circle, rgba(57,93,30,1) 12%, rgba(57,93,30,1) 30%, rgba(62,97,30,1) 32%, rgba(104,130,25,1) 50%, rgba(113,138,24,1) 54%, rgba(136,157,22,1) 64%, rgba(152,170,20,1) 71%, rgba(164,179,19,1) 76%, rgba(178,190,17,0.9223039557619923) 82%, rgba(178,190,17,0.9223039557619923) 86%, rgba(178,190,17,0.9223039557619923) 97%);
+    margin-left:40% ;
+    color: white;
+    height: 50px;
+    width: 300px;
+}
+.paypal{
+    border: 3px #e5e5e5 solid;
+    background-color: white;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-bottom: 20%;
+    height: 100px;
+    width: 300px;
+}
+.cart-table table tr td h6{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;   
+}
+/* ===========================================Carts Page End=================================== */
+/* ===========================================PRODUCT Page START=================================== */
+/* PRODUCT PAGE */
+.search{
+    margin: 80px 0px 80px 0px;
+    font-family: Poppins;
+ }
+.search-bar{
+    font-family: Poppins;
+    width: 100%;
+    height: fit-content;
+}
+.search-head{
+    font-family: Poppins;
+    background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    height: 50px;
+    width: 100%;
+}
+.search-head h3{
+    font-family: Poppins;
+    color:white;
+}
+.search-bar button{
+    width: 100%;
+    height: 50px;
+    color: rgb(102, 95, 95);
+}
+.search-bar button i{
+    padding-left: 50%;
+    color: rgb(102, 95, 95);
+}
+.search-bar table{
+    border: solid;
+    height: fit-content;
+    width: 100%;
+    padding: 1%;
+    /* margin: 10%; */
+    text-align: center;   
+}
+.search-bar table tr th{
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    padding: 1%;
+    text-align: center;   
+}
+.search-bar table tr td{
+    text-align: center;    
+}
+.search-bar table tr{
+    padding: 5%; 
+    border: solid rgba(28,133,86,1);   
+}
+.box-sellers{
+    font-family: Poppins;
+    position: relative;
+    display: flex;
+    width: 50%;
+}
+.box-sellers img{
+    width:200px;
+}
+.box-sellers p{
+    font-weight: 700;
+    width: 300px;
+}
+.rating-cart{
+    font-family: Poppins;
+    padding-left: 0%;
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    display:flex;
+    list-style: none;
+}
+.box-sellers button{ 
+    color: white;
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    border-radius: 20px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+
+}
+.box-sellers{
+    font-family: Poppins;
+    padding: 10%;
+    width: 100%;
+    height: fit-content;
+    border: solid rgb(176, 176, 225);
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+/* ===========================================PRODUCT Page END=================================== */
+
+/* ===========================================PRODUCT DETAIL Page START=================================== */
+.product-image img
+{
+    height: auto;
+    width: 100%;
+    left: 110%;
+    
+    display: inline;
+    position: relative
+}
+.product-text 
+{
+    font-family: Poppins;
+    text-align: justify;
+    display: flex;
+    height: 200px;
+    width: 100%;
+}
+.sub-img img{
+    margin: 20px;
+    justify-content: space-between;
+    height: 100px;
+    width: 100px;
+    background-color: #e5e5e5;
+}
+.sub-img {
+    height: 100px;
+    width: 100%;
+}
+.button-lorem button{
+    border-radius: 20px;
+    margin: 10px;
+}
+.loss{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);   
+    color: white;
+}
+.desc-button button{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 200px;
+
+}
+.description{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);   
+}
+.reviews{
+    background: linear-gradient(90deg, rgba(130,148,154,1) 8%, rgba(255,255,255,1) 48%, rgba(218,180,215,1) 70%);
+
+}
+.addition{
+    background: linear-gradient(90deg, rgba(130,148,154,1) 8%, rgba(255,255,255,1) 48%, rgba(218,180,215,1) 70%);
+
+}
+.product-text p{
+    font-size: 20px;
+}
+/* ===========================================PRODUCT DETAIL Page END=================================== */
+
+/* ===========================================CONTACT US Page START=================================== */
+
+.contact-box{
+    border-radius: 5px;
+    font-family: Poppins;
+    display: inline;
+    background: linear-gradient( to left, #b6e2089b, #1e6905e1),url('../images/Contact-Us.jpg') no-repeat top center;
+    width:480px;
+    height: 600px;
+    color: white;
+    margin-bottom: 20%;
+    margin-left:5%;
+
+}
+.contact-box h4{
+    margin-left: 20%;
+}
+.contact-box h4 i{
+    margin-right: 20%;
+    background-color: white; 
+    background: linear-gradient( to left rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.contact-box p{
+    text-align: justify;
+    padding-left: 20%;
+    height: 100%;
+    width:460px;  
+}
+.contact-box h1{
+    text-align: justify;
+    padding-left: 20%;
+    height: 100%;
+    width:460px;
+}
+.contact-icon{
+    display: flex;
+
+}
+.dot{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    margin-left: 40%;
+    color: #000;
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot i{
+    font-size:30px;
+    padding:35%
+    
+  }
+.contact-us{
+    margin: 10px;
+    font-family: Poppins;
+    display: inline;
+}
+.contact-form{
+    font-family: Poppins;
+    box-shadow: 5px 10px 15px #e3e2e2;
+    margin-top: 2% ;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 450px;
+    width: 600px;
+    background:white;
+    display: flex;
+}
+.contact-form form input{
+    display: flex;
+    border-radius: 5px;
+    height: 40px;
+    width: 200%;
+    border: 1px solid #e3e2e2;
+}
+.contact-form button{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);   
+    display: flex;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    border: none;
+}
+.contact-form h3{
+    margin-left: 20px
+}
+.heading {
+  margin-top: 30px;  
+  border-left: 6px solid green;
+  height: 40px;
+}
+/* ===========================================CONTACT US Page END=================================== */
+
+
+/* ===========================================CHECK OUT Page START=================================== */
+
+.billing-detail{
+    display: flex;
+}
+.input-group input {
+    width: 100%;
+    height: 40px;
+    margin: 1% 0% 1% 0%;
+}
+.rows{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rows .input-group{
+    flex-basis:48%;
+}
+.billing-detail form{
+    padding: 20px;
+    margin: 5px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 2px 2px
+}
+.check-out h5{
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.billing{
+    padding: 20px;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    /* height: 800px;
+    width: 300px; */
+    margin-bottom: 30%;
+    margin-top: 2%;
+}
+.billing h6{
+    justify-content: space-between;
+    background: linear-gradient(225deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    margin: 2% 10% 2% 10%;
+}
+.billing h5{
+justify-content: space-between;
+    margin: 2% 10% 2% 10%;
+    background: linear-gradient(90deg, rgb(4, 68, 40) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.billing ul{
+    
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+.total{
+    background: linear-gradient(90deg, rgb(4, 68, 40) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.billing input{
+    margin: 2% 10% 2% 10%;
+}
+.billing p{
+    margin: 2% 10% 2% 10%;
+}
+.billing button{
+    margin: 2% 2% 2% 4%;
+    background: linear-gradient(90deg, rgb(4, 68, 40) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+    color: white;
+    width: 90%;
+    height: 50px;
+    stroke: none;
+
+}
+/* ===========================================CHECK OUT Page END=================================== */
+/* ===========================================ABOUT US Start=================================== */
+.about_banner{
+    background-image: url("../images/banner-bg.jpg");
+    height: 100%;
+    width: 100%;
+}
+.about_banner h1{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    margin-top: 20%;
+    margin-bottom: 22.5%;
+}
+.desc_about_us img{
+    height: fit-content;
+    width: 100%;
+}
+.desc_about_us p{
+    text-align: justify;
+}
+.desc_about_us h1{
+    background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    font-size: 60px;
+    text-align: justify;
+}
+/* ===========================================ABOUT US End=================================== */
+
+  @media screen and (min-width:300px) and (max-width:519px) {
+    .contact-box{
+        border-radius: 5px;
+        font-family: Poppins;
+        display: inline;
+        background: linear-gradient( to left, #b6e2089b, #1e6905e1),url('../images/Contact-Us.jpg') no-repeat top center;
+        width:400px;
+        height: 700px;
+        color: white;
+        margin-bottom: 20%;
+        margin-left:5%;
+    
+    }
+    .contact-form{
+        font-family: Poppins;
+        box-shadow: 5px 10px 15px #e3e2e2;
+        margin-top: 2% ;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 450px;
+        width: 400px;
+        background:white;
+        display: flex;
+    }
+    /* .contact-box h1{
+        font-size: 16px;
+    }
+    .contact-box p{
+        font-size: 12px;
+    } */
+    .desc_about_us h1{
+        background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: 60px;
+        text-align: justify;
+    }
+    .about_banner{
+        width: 100%;
+        height: 240px;
+        font-family: Poppins;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .review{
+        font-family: Poppins;
+        display: flex;
+        width: 100%;
+        color: wheat;
+        background-image: url("../images/reveiws-bg.png");
+        background-size: cover;
+    }
+    .top_row{
+        padding: 1%;
+        margin:0%;
+        font-family: Poppins;
+        background-color: #4e555a;
+        font-size: xx-small;
+    }
+    .top-nav{
+        font-family: Poppins;
+        padding: 1%;
+        font-size: xx-small;
+    }
+    .top-text{
+        font-size: xx-small;
+    }
+    .top-logo img {
+        height: 40px;
+        width: 100px;
+    }
+    .banner {
+        width: 100%;
+        height: 240px;
+        font-family: Poppins;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .banner h3{
+        margin-top: 5%;
+        font-size: small;
+    }
+    .banner h1{
+        background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: large;
+    }
+    .banner button{
+        background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+        margin-top: 0%;
+        margin-bottom: 16%;
+        border-radius: 20px;
+        height: 10px;
+        font-size: 9px;
+        width: 90px;
+        color: wheat;
+        height: 35px;
+    }
+    .banner p{
+        font-size: 10px;
+    }
+    .find-your-product{
+        font-family: Poppins;
+        background-size: contain;
+        background-attachment: fixed;
+        background-image: url("../images/find-your-product.jpg");
+    
+    }
+    .subscribe{
+        font-family: Poppins;
+        background-image: url("../images/Home.TK.jpg");
+        background-size: cover;
+    }
+.subscribe-btn1 button{
+    height: 50px;
+    width: 300px;
+    padding-right: 20px;
+    border-radius: 50px;
+} 
+.subscribe-btn2 button{
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.find-your-product button{
+  
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+}
+
+.learning-button button {
+    font-family: Poppins;
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 200px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.subscribe-btn1 button {
+    height: 50px;
+    width: 200px;
+    padding-right: 20px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.subscribe-btn2 button {
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 20%;
+    color: white;
+}
+.info h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+.info{
+ 
+   text-align: center;
+    position: relative;
+    width: 100%;
+}
+.product-text p{
+    font-size: 10px;
+}
+.sub-img img{
+    height: 50px;
+    width: 50px;
+}
+
+} 
+/* ------------------ */
+@media screen and (min-width:519px) and (max-width:767px){
+    .contact-box{
+        border-radius: 5px;
+        font-family: Poppins;
+        display: inline;
+        background: linear-gradient( to left, #b6e2089b, #1e6905e1),url('../images/Contact-Us.jpg') no-repeat top center;
+        width:400px;
+        height: 700px;
+        color: white;
+        margin-bottom: 20%;
+        margin-left:5%;
+    
+    }
+    .contact-form{
+        font-family: Poppins;
+        box-shadow: 5px 10px 15px #e3e2e2;
+        margin-top: 2% ;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 450px;
+        width: 400px;
+        background:white;
+        display: flex;
+    }
+    .product-text p{
+        font-size: 10px;
+    }
+    .sub-img img{
+        height: 50px;
+        width: 50px;
+    }
+    .about_banner{
+        width: 100%;
+        height: 240px; 
+        font-family: Poppins;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .review{
+        font-family: Poppins;
+        display: flex;
+        width: 100%;
+        color: wheat;
+        background-image: url("../images/reveiws-bg.png");
+        background-size: contain;
+    
+    }
+    .box-seller {
+        margin: 20px 150px 20px ;
+    }
+    .help-card  {
+        font-family: Poppins;
+        margin: 20px 100px 20px ;
+        position: relative;
+        display:flex;    
+    }
+    .box-seller p{
+        text-align: justify;
+        font-size: medium;
+    }
+    .box-seller img{
+        height: 300px;
+        width: 450px;   
+    }
+    .box-seller {
+        margin: 20px 0px 20px 0px;
+        padding: inherit;
+        border: 1px solid;   
+    }
+    .rating-cart{    
+        background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .box-seller button{ 
+        color: white;
+        background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+        border-radius: 20px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .top_row{
+        padding: 1%;
+        margin:0%;
+        font-family: Poppins;
+        background-color: #4e555a;
+        font-size: x-small;
+    }
+    .top-nav{
+        font-family: Poppins;
+        padding: 1%;
+        font-size: x-small;
+    }
+    .top-text{
+        font-size: x-small;
+    }
+    .top-logo img{
+        height:50px;
+        width: 90px;
+    }
+    .banner{
+        
+        height: fit-content;
+        width: 100%;
+        font-family: Poppins;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-image: url('../images/banner-bg.jpg');
+    }
+    .banner h3{
+        margin-top: 5%;
+        font-size: small;
+    }
+    .banner h1{
+        background: linear-gradient(0deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-size: large;
+    }
+    .banner button{
+        background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+        margin-top: 0%;
+        margin-bottom: 16%;
+        border-radius: 20px;
+        height: 10px;
+        font-size: 9px;
+        width: 90px;
+        color: wheat;
+        height: 35px;
+    }
+    .banner p{
+        font-size: 10px;
+    }
+    .find-your-product{
+        font-family: Poppins;
+        background-size: contain;
+        background-attachment: fixed;
+        background-image: url("../images/find-your-product.jpg");
+    
+    }
+    .subscribe{
+        font-family: Poppins;
+        background-image: url("../images/Home.TK.jpg");
+}
+.subscribe-btn1 button{
+
+    height: 50px;
+    width: 300px;
+    padding-right: 20px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.subscribe-btn2 button{
+    background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-left: 29%;
+    color: white;
+}
+.find-your-product button{
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+}
+.info h1{
+    margin-top: 2%;
+    margin-right: 80%;
+    margin-bottom: 10%;
+}   
+.info{
+    margin-left: 30%;
+    position: relative;
+    width: 120%;
+}
+
+}
+
+@media screen and (min-width:767px) and (max-width:992px){
+    .product-text p{
+        font-size: 16px;
+    }
+    .sub-img img{
+        height: 100px;
+        width: 100px;
+    }
+    .about_banner{
+        width: 100%;
+        height: 240px;
+        font-family: Poppins;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .review{
+        font-family: Poppins;
+        display: flex;
+        width: 100%;
+        color: wheat;
+        background-image: url("../images/reveiws-bg.png");
+        background-size: contain;
+    
+    }
+    .help-card  {
+        font-family: Poppins;
+        margin-top: 5%;
+        position: relative;
+        display:flex;    
+    }
+    .help-card img {
+        width: 90%;
+        border-radius: 35px;
+    }
+    .help-card h3 {
+        color: #1f8554;
+        text-align: center;
+    }
+    
+    .box-seller {
+        margin-left:40px;
+    }
+    .box-seller p{
+        text-align: justify;
+        font-size: medium;
+    }
+    .box-seller img{
+        height: 300px;
+        width: 300px;   
+    }
+    .box-seller {
+        margin: 20px 0px 20px 0px;
+        padding: inherit;
+        border: 1px solid;   
+    }
+    .rating-cart{    
+        background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .box-seller button{ 
+        color: white;
+        background: linear-gradient(0deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 70%);
+        border-radius: 20px;
+        height: 50px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .top_row{
+        padding: 1%;
+        margin:0%;
+        font-family: Poppins;
+        background-color: #4e555a;
+        font-size:medium;
+    }
+    .top-nav{
+        font-family: Poppins;
+        padding: 1%;
+        font-size: medium;
+    }
+    .top-text{
+        font-size: medium;
+    }
+    .top-logo img{
+        height:50px;
+        width: 90px;
+    }
+    .banner{
+        margin: 2px;
+        height: 400px;
+        font-family: Poppins;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../images/banner-bg.jpg');
+    }
+    .learning-button button{
+        font-family: Poppins;
+        background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        border-radius: 20px;
+        margin-left: 70%;
+        width: 300px;
+        margin-bottom:5% ;
+    }
+    .find-your-product{
+        font-family: Poppins;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url("../images/find-your-product.jpg");    
+    }
+    .subscribe{
+        font-family: Poppins;
+        background-image: url("../images/Home.TK.jpg");
+    }
+    .subscribe-btn1 button{
+        height: 50px;
+        width: 300px;
+        padding-right: 20px;
+        border-radius: 50px;
+        margin-top: 3%;
+        margin-left: 20%;
+    }
+    .subscribe-btn2 button{
+        background: linear-gradient(180deg, rgba(28,133,86,1) 55%, rgba(164,126,10,0.9335084375547094) 88%);
+        height: 50px;
+        width: 200px;
+        border-radius: 50px;
+        margin-top: 3%;
+        margin-left: 29%;
+        color: white;
+    }
+    .find-your-product button{
+        margin-left: 45%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 300px;
+        height: 50px;
+    }
+    .info{
+        position: relative;
+        width: 140%;
+        margin-bottom: 20px;
+        margin-right: 30px; 
+        font-size: 12px;
+    }
+    .info h1{
+        text-align: center;
+        font-size: 20px;
+        padding-right: 350px;
+        margin-top: 10px;
+    }
+    .info ul{
+        list-style: none;
+        padding: 10px;
+     }
+     .info  h4{
+        font-size: 14px;
+        margin-left: 80px;
+     }   
+    .info ul li{
+        list-style: none;
+        padding: 5px;
+        margin-left: 75px;
+    }
+
+}
+@media screen and (min-width:992px) and (max-width:1199px){
+    .product-text p{
+        font-size: 20px;
+    }
+    .sub-img img{
+        height: 70px;
+        width: 70px;
+    } 
+    .record{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    margin-left: 60%;
+    padding: 2%;
+    height: 200px;
+    width: 150px;
+    background-color:#f9f9f9;
+    color: black;
+    }
+    .total{ 
+    display: inline;
+    background: radial-gradient(circle, rgba(57,93,30,1) 12%, rgba(57,93,30,1) 30%, rgba(62,97,30,1) 32%, rgba(104,130,25,1) 50%, rgba(113,138,24,1) 54%, rgba(136,157,22,1) 64%, rgba(152,170,20,1) 71%, rgba(164,179,19,1) 76%, rgba(178,190,17,0.9223039557619923) 82%, rgba(178,190,17,0.9223039557619923) 86%, rgba(178,190,17,0.9223039557619923) 97%);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+    }
+    .records{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px;
+    margin-top: 5%;
+    padding: 2%;
+    margin-left: 60%;
+    height: 200px;
+    width: 150px;
+    background-color:#f9f9f9;
+    color: black;
+    }
+    .about_banner{
+        width: 100%;
+        font-family: Poppins;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .box-seller img{
+        height: 300px;
+        width: 180px;   
+    }
+    .top_row{
+        font-family: Poppins;
+        background-color: #4e555a;
+        font-size: 12px;
+    }
+    .top-nav{
+        font-family: Poppins;
+        padding: 1%;
+        font-size: 12px;
+    }
+    .top-text{
+        font-size: medium;
+    }
+    .top-logo img{
+        height:50px;
+        width: 90px;
+    } 
+    .banner{
+        margin: 2px;
+        height: fit-content;
+        font-family: Poppins;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../images/banner-bg.jpg');
+    }
+    .info{
+    position: relative;
+    width: 150%;
+    margin-top: 20%; 
+    margin-bottom: 20%;
+    margin-right: 30%; 
+    }
+
+    .info h1{
+    margin-right:35px;
+    text-align: center;
+    }
+    .info h4{
+    padding: 20px;
+    text-align: center;
+    }
+    .info ul{
+    list-style: none;
+    padding: 20px;
+     }   
+    .info ul li{
+        padding: 20px;
+        list-style: none;
+
+    }
+    .find-your-product button{
+        margin: 10px 130px;
+        background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+        color: white;
+        text-align: center;
+        border-radius: 20px;
+        width: 300px;
+        height: 50px;
+    }
+
+}
+@media screen and (min-width:1200px) and (max-width:1365px){
+    .product-text p{
+        font-size: 20px;
+    }
+    .sub-img img{
+        height: 70px;
+        width: 70px;
+    } 
+    .record{
+        box-shadow: 0.5px 0.5px 0.5px 0.5px;
+        margin-left: 30%;
+        padding: 2%;
+        height: 200px;
+        width: 200px;
+        background-color:#f9f9f9;
+        color: black;
+    }
+    .total{ 
+        display: inline;
+        background: radial-gradient(circle, rgba(57,93,30,1) 12%, rgba(57,93,30,1) 30%, rgba(62,97,30,1) 32%, rgba(104,130,25,1) 50%, rgba(113,138,24,1) 54%, rgba(136,157,22,1) 64%, rgba(152,170,20,1) 71%, rgba(164,179,19,1) 76%, rgba(178,190,17,0.9223039557619923) 82%, rgba(178,190,17,0.9223039557619923) 86%, rgba(178,190,17,0.9223039557619923) 97%);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    .records{
+        box-shadow: 0.5px 0.5px 0.5px 0.5px;
+        margin-top: 5%;
+        padding: 2%;
+        margin-left: 30%;
+        height: 200px;
+        width: 200px;
+        background-color:#f9f9f9;
+        color: black;
+    }
+    .about_banner{
+        width: 100%;
+        font-family: Poppins;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .banner{
+        margin: 2px;
+        height: fit-content;
+        font-family: Poppins;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../images/banner-bg.jpg');
+    }
+}
+ @media screen and (min-width:1365px) and (max-width:1600px){
+    .product-text p{
+        font-size: 20px;
+    }
+    .sub-img img{
+        height: 70px;
+        width: 70px;
+    } 
+    .about_banner{
+        width: 100%;
+        font-family: Poppins;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .banner{
+        margin: 2px;
+        height: fit-content;
+        font-family: Poppins;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url('../images/banner-bg.jpg');
+    }
+}
+@media screen and (min-width:1600px) and (max-width:1920px){
+    .product-text p{
+        font-size: 20px;
+    }
+    .sub-img img{
+        height: 70px;
+        width: 70px;
+    } 
+    .about_banner{
+        width: 100%;
+        font-family: Poppins;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        object-position:left;
+        background-image: url(../images/banner-bg.jpg);
+    }
+    .banner{
+        margin: 2px;
+        height: fit-content;
+        font-family: Poppins;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('../images/banner-bg.jpg');
+    }
+    .banner button{
+        background: linear-gradient(120deg, rgba(28,133,86,1) 15%, rgba(164,126,10,0.9335084375547094) 55%);
+        margin-top: 0%;
+        margin-bottom: 28%;
+        border-radius: 20px;
+        height: 10px;
+        font-size: 9px;
+        width: 90px;
+        color: wheat;
+        height: 35px;
+    }
+}  
+
+
+
+
+
+
